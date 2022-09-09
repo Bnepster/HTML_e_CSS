@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+            margin: 0px;
+        }
+
+        header{
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        main{
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px 0px 10px 0px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.607);
+        }
+
+        article{
+            background-color: rgb(227, 227, 227);
+            padding: 5px;
+        }
+
+        article > aside{
+            background-color: lightgray;
+        }
+
+        nav{
+            background-color: #6a6a6a;
+            padding: 5px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.55);
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 35px;
+        }
+
+        nav > a:hover{
+            background-color: black;
+            text-decoration: underline;
+            padding: 5px;
+            margin-top: 10px;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: auto
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header> <!--Cabeçalho-->
+        <h1>Meu site</h1>
+        <nav> <!--Menu / Navegação-->
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main> <!--Conteudo pricipal-->
+        <section id="assuntos"> <!--Sessão-->
+            <h1>Open source </h1>
+        </section>
+        <section is="notícias">
+            <article> <!--Artigo-->
+                <h1>Nova distro linux chegando na área</h1>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id officia atque sapiente! Saepe voluptatum nobis esse eum reprehenderit delectus quia provident possimus. Optio nemo corporis aperiam sunt rerum expedita sed? Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ratione ducimus nulla. Laborum nobis quaerat temporibus praesentium quod odio amet sint debitis? Autem at earum obcaecati aperiam ad quas cupiditate.
+                </p>
+                <aside> <!--Tag relativa ao artigo-->
+                    <p>Escrito por Pedro Silva</p>
+                </aside>
+            </article> 
+        </section>
+    </main>
+    <footer> <!--Rodapé-->
+        <p>Desenvolvido por Bruno Nepster</p>
+    </footer>
+</body>
+</html>

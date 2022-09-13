@@ -7,20 +7,20 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
-    background-color: #78ff7880;
+    background-color: #83e1ad;
 }
 
 header{
-    background-color: #004600;
+    background-color: #063d1e;
     color: #ffffff;
     box-shadow: 2px 2px 10px #0000003d;
-    background-image: linear-gradient(to top, #004600, #78ff78a4);
+    background-image: linear-gradient(to top, #063d1e, #2fa866);
 }
 
 header > h1{
     text-align: center;
     text-transform: uppercase;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Bebas Neue', Impact, 'Arial Narrow Bold', sans-serif;
     font-size: 3em;
     font-weight: 100;
     padding: 20px;
@@ -43,9 +43,16 @@ nav > a{
     margin: 10px;
 }
 
+nav > a:hover{
+    background-color: #2fa966;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
 main{
     background-color: #ffffff;
-    width: 600px;
+    min-width: 400px;
+    max-width: 800px;
     height: auto;
     margin: auto;
     padding: 15px;
@@ -54,7 +61,7 @@ main{
 }
 
 picture > img{
-    width: 600px;
+    width: 100%;
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -65,23 +72,36 @@ picture > p{
 }
 
 h2.specialfont{
-    background-image: linear-gradient(to right, #cbfccb, #f3fff3a3);
+    background-image: linear-gradient(to right, #c5ebd6, #ffffff);
 }
 
 .specialfont{
     font-family: "idroid", sans-serif;
-    color: #004600;
+    color: #1a5c37;
 }
 
 article{
-    background-color: #cbfccbbb;
+    background-color: #c5ebd6;
     padding: 10px;
     border-radius: 15px;
     box-shadow: 1px 1px 5px rgba(156, 156, 156, 0.514);
 }
 
+main a:hover {
+    text-decoration: underline;
+    color: var(--cor4);
+}
+
+div.videos {
+    background-color: var(--cor5);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+}
+
 article > h2{
-    background-color: #004600a5;
+    background-color: #2fa966;
     color: #ffffff;
     margin-top: -10px;
     margin-left: -10px;
@@ -98,12 +118,14 @@ div > ul{
     list-style: circle;
 }
 
-p{
+main p{
     text-indent: 30px;
+    text-align: justify;
+    line-height: 1.5em;
 }
 
 footer{
-    background-color: #004600;
+    background-color: #063d1e;
     color: #ffffff;
     margin-top: 10px;
     text-align: center;

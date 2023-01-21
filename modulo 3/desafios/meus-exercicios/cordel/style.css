@@ -26,6 +26,7 @@ main{
 .fundo-branco{
     background-color: rgb(255, 255, 255);
     padding: 15px;
+    padding-bottom: 15px;
 }
 
 #back01{
@@ -37,6 +38,7 @@ main{
     height: auto;
     padding: 10px;
     box-shadow: inset 6px 6px 13px 0px  rgba(0, 0, 0, 0.49);
+    background-attachment: fixed;
 
 }
 
@@ -49,6 +51,7 @@ main{
     height: auto;
     padding: 10px;
     box-shadow: inset 6px 6px 13px 0px  rgba(0, 0, 0, 0.49);
+    background-attachment: fixed;
 }
 
 .textimage{

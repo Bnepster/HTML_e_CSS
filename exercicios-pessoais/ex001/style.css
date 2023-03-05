@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: rgba(1, 17, 79, 0.341);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    background-color: rgb(1, 16, 79);
+}
+
+main{
+    margin: auto;
+}
+
+article{
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+    width: 830px;
+}
+
+div{
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+}
+
+#t01 {
+    background-color: white;
+}
+
+#t02 {
+    background-color: white;
+    margin-left: 0px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
